@@ -1,6 +1,9 @@
 #navbar{
-    height:60px;
-    background-color: #d1cfcf;
+    height:80px;
+    background-color: greenyellow;
+   border-color: black;
+   border-width: 2px;
+  
     display: flex;
 }
 select{
