@@ -4,12 +4,178 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>saylani website</title>
+    <link rel="stylesheet" href="./style.css">
+   <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     
    
     
   </head>
   <body>
-  <h1>hello</h1>
+  <div id="nav">
+    <a href="#" class="email">info@SaylaniWelfare.com</a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+    </svg>
+    <a href="#" class="contact">021-111-729-526</a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+    </svg>
+    <a href="#" class="whatsapp">+923111729526</a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+    </svg>
+    <a href="#" class="link">visit our other websites</a>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXUlEQVR4nO2Yj09TVxTH+0/NCTKKOCUoKBTZpPwQZUwCbChxZrgYolkIicRsI8vi5rZs7mfCzH6VgdMMgQGR8aMi/gKFMUv7Xkv7XmlL+9q+73Lv6ys8Hq8tUp1Z3je5aZr0nnM/99x77jk1GHTp0qVLly5dz4GiHIe1WglG8Pl3D/By6W8wFltSHrJsGS8ohqzN2DIWW5B7sBudn07Dx/nh/eQiFrN3UHsqAHv+bvh/+QkQRQXIgs2HE60j/wlA4+khPJz3Ijg8BOZgsWQrcxs8755TA8iO2CNVEO7eUUAQpt6+xyiq/v2ZABRWXkXXr3MQWAbus61xG2xlGULWSWpHBRC42gNHQb7046zt4D94D2LArwBZ9gk0nDtLup8KQI7Jgrb3J8G5A1j+5iss5hrpXPJJviMSidtRAVzumkXI6wP/YSdsO16kEwmQv3t1UbKm73tQ0zyQVoDXmgeo3dDkBNiKsvi8pZMnEHHYFf6FcFQNQIyY6//AzQkWwswDOGuPxo24GuoQnp9TGImKIn7u/Rt7y3u3BJBX1oOvr8xC8PDgLnSsbl5JEVaGBlWbN3l7CYffvLExgDxa2kbBOgN098nlpmHMzqTREUMhhUGXO0jD/iQALW2jYFjZzx7Jz0sZG/pZ8kh+yDEjcxMCkEF2llyksIdT7AzJBiQrrNfElAtVb9xICUAR6ddrlJGeU0eaJJDCKmUCSQogj5o1Z5MpP5TwbIYjYlIA8rYE+dhdy9qe8K7df8ih7tSfG64rZYD12cH3/bdY3CVnh2x4L30MURBUzrUAVgb64SgqiGc77kIHRJ9v09lOBYA0SwsgXTL87wBs6xw+78OgA2ToEUBaj1C6L5mehZIo5YdsX4VUm0ejykYnvLAAV1NjfKeddbUQZmeSRmB4jFUtJjQxDsb8quKVDzsYWkLsP7xxD5ISQOv5cbg5ZVElBoP09ZVbO3veLvo6O51++lonA5CLOAcbUNoNh6VXPtYD2HfvpN95Pii9yqbu1AEqGvrwl9Wp2qmVwQE4Sg5Ii8rcRrslweWmEco3S2V1KgC0jD7UQ+siUtuvVYRl4T79dnweW1WO0O0pWKeXUN3UnxggoVFFa2dGaOoWbt1x48jx/i31AxWNfRizutSbRWom037NzVIBkLDaGY2wrineli9/oRnWJ+3IckwWtHdawfHJj6v/xytwsP7kaTQ0PgbG/Ep8Ae4z7yDMsvRiHdC4WFvtiQsqNRLGo0dw1h9bTRj1x7QBojwPT3sbDRv5MVNqQnBkGLNzPBpahhIuYKsAxtioPTmIuzPK/6mIAtevwb4vT+Mhi0bh+6EL9j250nHJyYL3s0sIeAO4+OU9+gdTKs7TAWAsttDj2fHRFHz+sAIi6vWCO9+uBnDWVK/m4ebjiNgeY2iUQWnt9ZSdphPAGBumo9fosV0vFQBx4ijcS1s7m92Pt87d3LSzpwFgjI2mMyOY/2dZG0CXLl26dOnSZXj2+hdh4D9R4Q/X/wAAAABJRU5ErkJggg==" alt="UKImage" style="width: 20px;">
+    
+    <a rel="noreferrer" target="_blank" class="image_sites_ltr" href="https://www.saylaniwelfareusa.com/en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+klEQVR4nO2VrQoCQRSFx5eybhAWtmkSxGLWJzD4ACbrWn0FFxQVDGKzCQo2g2lAFydZruyCFg3uMr/O+eDA3HYP9565jAEAAADAMERUCRoJyZaoVZWJ/aWBqDWn0Xj/bqBo3etvcxkxEDZndDjdKGMw3FHRut1dU3p/5MremQF+TZWJfZtAPDnSanOhemdJZerp4pzrNQHtBgLJMmIgkpgD7SEOJefAyDcaS8yB83eA685AJPkOaDUQ4g4kH3fA+QwIGKj+PgGVgdMSYm5BU9xrA0Jh4LT8QsKCpoTXBrgFe829DjF33YCwYK+F1yEWLhsAAAAAAGCleAKWmufwwWk9CQAAAABJRU5ErkJggg==" alt="USAImage" style="width: 20px;"></a>
+    <a rel="noreferrer" target="_blank" class="image_sites_ltr" href="https://www.saylaniwelfare.ca/en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABU0lEQVR4nO2VP0sDMRjGD4o6iyDo5Kr0A4jlOC0O0iLWwanQ0Toogrr004iLuKoIdXIQP4VScY/Vuy3p3T0Si38GgzVFLyfPAy+EJC/JL++feB5FURRF/QfB9zCIiafwVw0D3oMAghEImUIsYvFNHUTtY0Rnh/nsQo8PHSSrk0irE+h2bvMDoHaXEV5fQLZq7z56rOf0mvMAydqU0TepTbsPENdnjb5xfc59ANVcMPqqrZK7AGo7QHR5ArlfMfrKgyqeb9qQeyvuASAo9PcsjRh90/JYfxwU3ACQnzqNrcnWenYAb73e9vKp/iPu77JNIf3b2gJE50fZppAuSLWzaA3Q25xHeHVKgKFSyCYSX728yLqN/uRwJz8yoQ8vjyKtjCPemEGvUfx48UbxdU6v6T3OAgjDZWx8QAB/+AjYGFyKAAF8RsBjCom/KmKKoiiK8nKoFz8f4JiFDf/dAAAAAElFTkSuQmCC" alt="CanadaImage" style="width: 20px;"></a>
+    
+    <a rel="noreferrer" target="_blank" class="image_sites_ltr" href="https://www.saylaniwelfare.com/tr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVR4nO2WT0gUYRiHZxM9JKgQGCEeCsGrmhgUs5IgbQRLFJSQp91M7BZtF/Hin8NCEIG4oh3aDhHioT9EBqJ1MmqpDmJ7ywWhQhMjtUW33UemUT/3tCO1zoy9D3yHZeZ7eZ95f9/saJogCIIg7AfQNdy0NBHQZQJIhHZidySQQ6xbeAoXK+F+N8TfweI3WP0JiU/wZBDa6h08Aa8H7nXBWpI/pNMw/hBunoGzZeb1CxVwutCBAl4PjEXZ5vsX6DjpojMQuaWaX16CK9W2N49lAX85/FpWAuFA7uLGnj2IkmZJoP+Gan5+DhoLchdvPwGPbqvfzcU2Crx5oQSeDlkrfq0BMhmI9sDUczOCtgnMziiBXI2cOwThIHx4pfZ8fG1taroTBC4fg4EQxGNqT2wcGg/YKPD2pWrmccRa8avHzftH7sD7CZsjNBBSAl8T1p5msC77vPhKbRQ4fwSSK0qitzV3cf9haD6Yl6bZtYCxhjuVwI8FuHQ0783xTwWM2EyOZEcpUOMiAX1T4kEfpNZNid8peDYM109BU5F5j68kb69M/lpga7VUmf+yn6chuWp+lRoTGb0LgVoHT0B33tJEQJcJIBHaid2R4L8/xIIgCIKguZANPKAGeS46VvoAAAAASUVORK5CYII=" alt="TurkeyImage" style="width: 20px;"></a>
+    </div>
+    <div id="navbar" >
+      <img src="./logo_saylaniwelfare.22bf709605809177256c.png" class="img">
+      <ul class="dropdown">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Media</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Bank Details</a></li>
+        <li><a href="#">Other Websites</a></li>
+    </ul>
+    
+      
+
+      
+       <button class="button1">qurbani 2024</button>
+      <button class="button2">donate now</button>
+       <button class="button3">be a sponsar</button>
+     
+      
+      
+    </div>
+    <div id="main">
+      <h1>Welcome to  <span style="color: #8DC63F;"><br>saylani </span> welfare</h1><img class="pics" src="https://res.cloudinary.com/saylani-welfare/image/upload/v1646926708/website-images/static/38.png" alt="">
+      
+      </div>
+      <div class="NGO">
+      <h1><b> The largest NGO offering free<span style="color: #0D6DB7;"> IT and vocation <br>training</span></b></h1>
+      <p class="para">Saylani Welfare is on the ground and already working <br>with local communities to assess how best to support<br> underprivileged families in more than 63 areas of day to day lives</p>
+<button class="explore">Explorer More
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+  </svg>
+  </button>
+  </div>
+  <div id="menu">
+   <div class="nav-menu">
+      <button class="g1">general</button>
+    
+    <input placeholder="0" class="placeholder">
+    <button class="rs"><b>Rs</b></button>
+     
+    </div>
+    <div class="button">
+      <button class="button4"><b>blood bank / thalassemia treatmeant</b></button>
+      <button class="button5"><b>family kifalat</b></button>
+      <button class="button6"><b>medical</b></button>
+      <button class="button7"><b>food</b></button>
+      <button class="button8"><b>quick donate</b></button>
+    </div>
+    
+  </div>
+  <div class="main-img">
+    <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1716045799/website-images/dynamic/0b4445dd-3d52-4dbe-952a-361a719e60b2.jpg" alt="QURBANI PAK" class="carousel-image" width="1420" height="600"  >
+  </div>
+  <div >
+    <h1><b>what we are doing</b></h1>
+  </div>
+  <div class="menu-button">
+    <button class="s-button"><b><img src="./44.png">
+  Welfare</b></button>
+  <button class="m-button"><b><img src="./41.png">Medical</b></button>
+  <button class="on-button"><b><img src="./39.png">Online Sadqah</b></button>
+  <button class="clean-button"><b><img src="./40.png">Clean Water</b></button>
+  <button class="e-button"><b><img src="./48.png">Education</b></button>
+  <button class="f-button"><b><img src="./43.png">Food</b></button>
+    
+    
+  </div>
+  <div>
+  <div class="image-container">
+    <img src="./images (2).jfif" alt="Sample Image">
+    <h5><b>It Entreneurship courese</b></h5>
+    <button class="button">Donate</button>
+    
+ <div class="img-2">
+<img src="./images (1).jfif" class="food">
+<h5><b>Daily Food</b></h5>
+<button class="button">donate</button>
+<div class="img-3">
+  <img src="./images.jfif" class="zakat">
+  <h5><b>Zakat</b></h5>
+  <button class="button">donate</button>
+</div>
+</div>
+</div>
+</div>
+<div class="folders">
+<img src="https://i.tribune.com.pk/media/images/2178912-image-1584559620/2178912-image-1584559620.jpg" class="folder2">
+<h3 class="line">Saylani serve almost 300,000 underprivileged on daily basis</h3>
+</div>
+<h1 class="projects">other projects</h1>
+<p class="Hepa"> <span style="color: #0D6DB7; font-family: sans-serif; font-weight: bolder;"> <b>Hepatitis</span><br>
+  Saylani Welfare has also set up a clinic for the best treatment of hepatitis patients where hepatitis patients are being treated</p>
+ <p class="house"><span style="color: #0D6DB7; font-family: sans-serif; font-weight: bolder;"><b> Housing Society<br></span>
+  Saylani Welfare is also providing its own home facility for the homeless people. So far, thousands of houses and flats have been constructed and given in easy installments</p>   
+  <p class="it"><span style="color: #0D6DB7; font-weight: bolder; font-family: sans-serif;"><b> IT Literacy<br></span>
+    We are committed to developing more than 1 million software developers, which will add about 100 billion annually to Pakistan's economy and help ease the debt burden on Pakistan</p>  
+  <P class="thar"><span style="color: #0D6DB7; font-weight: 30px;font-family: sans-serif;"><b> Tharparkar</b><br></span>
+    In Tharparkar, Saylani has set up several schools and ro plants, dug wells and brought the children there to Karachi and taught them modern technology</P>  
+ <div class="container">
+  <div class="row">
+    <img class="img43" src="./50.png">
+  
+  <img src="./49.png" class="img49" >
+  <img class="img51" src="./51.png">
+  <img src="./52.png" class="img51">
+</div>
+ <div class="container2">
+  <h2>300000<br><p> food <br> (daily)</p></h2>
+  <h2 class="sone">20000 <br><p>family <br>adoption<br>(monthly)</p></h2>
+  <h2 class="thone">25000 <br><p>education <br>(monthly)</p></h2>
+  <h2 class="frthone">125000 <br> <p>medical <br> (monthly)</p></h2>
+  </div>
+  </div>
+  <div>
+    
+    <h1 class="they">Media updates</h1>
+    <div id="cardtype">
+    <div class="card" style="width: 18rem;">
+      <img src="./b5e492d5-8235-4e06-8bf7-150929b0f6fa.jpg" class="card-img-top" alt="...">
+     
+      <div class="card-body">
+        <p class="card-text"><b>No Child Will Go To School Hungry Anymore! | Saylani and Sindh Governor's Free Breakfast Program
+          #Organisation #Charity</b></p>
+      </div>
+    </div>
+ 
+  <div class="card2" style="width: 18rem;">
+    <img src="./c3b4aebd-99c2-41dd-9361-5979852549be.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Cricketer BasitAli | Qurbani With Saylani
+        #Organisation #Charity</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+    
+      
+      
+    
+  
+
      
      
     
